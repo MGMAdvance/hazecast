@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hazecast</title>
+  </head>
+  <body>
+    <h1>Hazecast</h1>
+    Podcast:
+    <script>
+    const Store = require('./../store.js')
+    const store = new Store({   
+      configName: 'user-data'
+    });
+    try{
+    document.write(store.get('diolinux'));
+    }catch{
+
+    }
+    </script>
+  </body>
+</html>

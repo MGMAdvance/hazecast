@@ -1,0 +1,20 @@
+{
+  "name": "Hazecast",
+  "version": "1.0.0",
+  "description": "Podcast player for desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/MGMAdvance/hazecast.git",
+  "author": "Matheus <matheusgt4@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.12"
+  },
+  "dependencies": {
+    "electron-store": "^5.0.0",
+    "menubar": "^6.0.8",
+    "xml2js": "^0.4.22"
+  }
+}
