@@ -3,10 +3,35 @@
   <head>
     <meta charset="UTF-8">
     <title>Hazecast</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css">
+    <style>
+      .full-width {
+        height: 100%;
+        min-height: 100vh !important;
+      }
+      .no-border-bottom{
+        margin-bottom: 0px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hazecast</h1>
-    Podcast:
+    <div>
+      <div class="row no-border-bottom">
+        <!-- Side menu -->
+        <div class="col s3 grey darken-4 white-text full-width">
+        Menu
+        </div>
+      
+        <!-- Page -->
+        <div class="col s9 grey darken-3 white-text full-width">
+        List
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
     <script>
     const Store = require('./../store.js')
     const store = new Store({   
